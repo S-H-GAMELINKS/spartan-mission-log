@@ -1,10 +1,4 @@
 import React, { useState } from 'react';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Select } from './ui/select';
-import { Textarea } from './ui/textarea';
-import { Label } from './ui/label';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { GAME_TITLES, DIFFICULTIES } from '../utils/constants';
 import { MISSIONS } from '../utils/missions';
 import { GameTitle, Difficulty, NewRecord } from '../types';

@@ -1,5 +1,4 @@
-import React, { useMemo } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
+import { useMemo } from 'react';
 import { Record } from '../types';
 import { GAME_TITLES } from '../utils/constants';
 

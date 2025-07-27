@@ -1,8 +1,4 @@
-import React, { useState, useMemo } from 'react';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Select } from './ui/select';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
+import { useState, useMemo } from 'react';
 import { GAME_TITLES, DIFFICULTIES } from '../utils/constants';
 import { Record, GameTitle, Difficulty } from '../types';
 import { Trash2, Edit } from 'lucide-react';
