@@ -4,6 +4,20 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    'halo-select',
+    'halo-input',
+    'halo-button',
+    'halo-card',
+    'halo-card-header',
+    'halo-table',
+    'stat-card',
+    'spartan-header',
+    'spartan-title',
+    'nav-tab',
+    'loading-spinner',
+    'stat-number'
+  ],
   theme: {
     container: {
       center: true,
